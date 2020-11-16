@@ -2,11 +2,11 @@ import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 
-import Landing from './Components/Layout/Landing';
-import Navbar from './Components/Layout/Navbar';
-import Register from './Components/Auth/Register';
-import Login from './Components/Auth/Login';
-import Alert from './Components/Layout/Alert';
+import Landing from './components/Layout/Landing';
+import Navbar from './components/Layout/Navbar';
+import Register from './components/Auth/Register';
+import Login from './components/Auth/Login';
+import Alert from './components/Layout/Alert';
 //Redux
 import { Provider } from 'react-redux';
 import store from './store';
