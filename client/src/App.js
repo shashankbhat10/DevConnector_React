@@ -4,8 +4,8 @@ import './App.css';
 
 import Landing from './components/Layout/Landing';
 import Navbar from './components/Layout/Navbar';
-import Register from './components/auth/Register';
-import Login from './components/auth/Login';
+import Register from './components/Auth/Register';
+import Login from './components/Auth/Login';
 import Alert from './components/Layout/Alert';
 //Redux
 import { Provider } from 'react-redux';
